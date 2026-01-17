@@ -1,5 +1,8 @@
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
+import TechStack from "./components/TechStack";
+
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-[#0a0a0a] text-white overflow-x-hidden">
@@ -36,7 +39,8 @@ export default function Portfolio() {
 
     <Hero />
 
-
+<TechStack />
+        <Contact />
     <Footer />
     </div>
   );
